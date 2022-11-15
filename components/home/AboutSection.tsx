@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react'
 import girlImg from '../../public/girlonphone.jpg'
 import { CalendarIcon, EmailIcon, MoonIcon, StarIcon, SunIcon, CheckCircleIcon } from '@chakra-ui/icons'
-import AlertSec from './AlertSec'
+// import AlertSec from './AlertSec'
 import PopoverSec from './PopoverSec'
 import ModalSec from './ModalSec'
 import TableSec from './TableSec'
@@ -232,7 +232,7 @@ export default function AboutSection() {
                         </Box>
                     </WrapItem>
                 </Wrap>
-                <AlertSec />
+                {/* <AlertSec /> */}
                 <PopoverSec />
                 <ModalSec />
                 <Heading textAlign={"center"} fontSize={{ base: "2xl", md: "3xl" }} color={"teal.500"} mb='5'>
