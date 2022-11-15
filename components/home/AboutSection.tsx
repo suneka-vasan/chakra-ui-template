@@ -12,7 +12,6 @@ import AlertSec from './AlertSec'
 import PopoverSec from './PopoverSec'
 import ModalSec from './ModalSec'
 import TableSec from './TableSec'
-import CardSec from './CardSec'
 import AccordionSec from './AccordionSec'
 import TabSec from './TabSec'
 
