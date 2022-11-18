@@ -6,7 +6,7 @@ import themeConfig from "../theme/theme.config"
 const theme = extendTheme(themeConfig)
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme} cssVarsRoot={undefined}>
       <Component {...pageProps} />
     </ChakraProvider>
   );

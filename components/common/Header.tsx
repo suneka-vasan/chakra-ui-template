@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Container, Flex, Image, Link, useTheme } from "@chakra-ui/react"
-import NextLink from "next/link"
 import Nav from './Nav'
 
 export default function Header(props: any) {
